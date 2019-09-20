@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ice Crime</title>
+  <!-- Load Icons -->
+  <script src="https://kit.fontawesome.com/a83dba7890.js"></script>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Montserrat&display=swap" rel="stylesheet">
+  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <a href=#main__hero class="icon__link"><i class="fas fa-ice-cream fa-2x navbar__icon"></i></a>
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul class="navbar__list" id="navbar__list">
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Hero -->
+    <header id="main__hero" class="main__hero">
+      <div class="text__wrapper">
+        <h1 class="hero__title"><span class="title--highlighted">Ice Crime</span></h1>
+        <p class="hero__text">What type of <span class="text--highlighted">ice cream</span>inal are you?
+        </p>
+      </div>
+      <div class="image__wrapper">
+        <img src="./img/hero__bg.jpg" alt="ice cream on a red background" class="hero__image">
+      </div>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav. -->
+    <section id="section1" data-nav="Gobbler">
+      <div class="image__container">
+        <img src="./img/cookiesNcream (photo by Toa Heftiba).jpg" alt="cookies and cream ice cream" class="image--type">
+      </div>
+      <div class="text__container">
+        <h2><span class="text__circles">#1</span> cookies N' cream gobbler</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra
+          dapibus. Suspendisse potenti. Aenean aliquam
+          nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie
+          semper in tellus. Sed congue et odio sed euismod.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel
+          luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur
+          porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+    </section>
+    <section id="section2" data-nav="Chewer">
+      <div class="text__container">
+        <h2><span class="text__circles">#2</span> rocky road chewer</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra
+          dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus
+          nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie
+          semper in tellus. Sed congue et odio sed euismod.</p>
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel
+          luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur
+          porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+      <div class="image__container">
+        <img src="./img/rocky_road.jpg" alt="rocky road ice cream" class="image--type">
+      </div>
+    </section>
+    <section id="section3" data-nav="Guzzler">
+      <div class="image__container">
+        <img src="./img/coconut(photo by alexandra-gorn-unsplash).jpg" alt="coconut ice cream" class="image--type">
+      </div>
+      <div class="text__container">
+        <h2><span class="text__circles">#3</span> coconut heaven guzzler</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra
+          dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus
+          imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget
+          semper in tellus. Sed congue et odio sed euismod.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel
+          luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur
+          porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+    </section>
+    <section id="section4" data-nav="Cruncher">
+      <div class="text__container">
+        <h2><span class="text__circles">#4</span> pistachio cruncher</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra
+          dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus
+          nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie
+          semper in tellus. Sed congue et odio sed euismod.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel
+          luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur
+          porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+      <div class="image__container">
+        <img src="./img/pistachio (photo by (toa-heftiba-unsplash).jpg" alt="pistachio ice cream" class="image--type">
+      </div>
+    </section>
+    <a class="button button--totop no-show">
+      <img class="button__image" src="./img/coneupside.svg" alt=" upside down ice cream cone"">
+    </a>
+  </main>
+  <footer class=" page__footer">
+      <p class="footer__text">All rights reserved &copy</p>
+      </footer>
+      <script src="./js/app.js"></script>
+</body>
+
+</html>
