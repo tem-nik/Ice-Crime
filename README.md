@@ -11,7 +11,7 @@ The task was to build a multi section landing page with dynamically built naviga
 ### Building
 To build I followed the following steps: 
 
-1.Setting up the environment
+1. Setting up the environment
 1. Building out my HTML with at least three content sections
 1. Building the navigation menu
 1. Adding functionality to distinguish the section in view
